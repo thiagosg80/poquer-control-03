@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "seya",
+    "compra": 15,
+    "recompra": 0,
+    "isEliminado": false
+  },
+  {
+    "nome": "shiriu",
+    "compra": 15,
+    "recompra": 15,
+    "isEliminado": false
+  },
+  {
+    "nome": "yoga",
+    "compra": 15,
+    "recompra": 15,
+    "isEliminado": true
+  },
+  {
+    "nome": "ikki",
+    "compra": 15,
+    "recompra": 15,
+    "isEliminado": true
+  },
+  {
+    "nome": "kamus",
+    "compra": 15,
+    "recompra": 0,
+    "isEliminado": false
+  },
+  {
+    "nome": "afrodite",
+    "compra": 15,
+    "recompra": 0,
+    "isEliminado": true
+  }
+]

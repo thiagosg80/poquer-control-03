@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "batista",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "claus",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "flavio",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "fly",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": true
+  },
+  {
+    "nome": "gilson",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "mario",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "rafael",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": true
+  },
+  {
+    "nome": "thiago",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "vagner",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": true
+  },
+  {
+    "nome": "vinicius",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  },
+  {
+    "nome": "ze",
+    "compra": 20,
+    "recompra": 20,
+    "isEliminado": false
+  }
+]
