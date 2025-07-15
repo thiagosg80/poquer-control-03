@@ -1,7 +1,6 @@
 package com.app.poquer_control_03;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -11,12 +10,12 @@ import java.nio.file.Files;
 
 @Service
 public class ExpectedJSON {
-    public static String get(String fileName) throws IOException, JSONException {
+    public static String get(String fileName) throws IOException {
         final String fullName = "/expected/".concat(fileName).concat(".json");
         final File file = new ClassPathResource(fullName).getFile();
         final String content = new String(Files.readAllBytes(file.toPath()));
-        final JSONObject jsonObject = new JSONObject(content);
+        ObjectMapper mapper = new ObjectMapper();
 
-        return jsonObject.toString();
+        return mapper.readTree(content).toString();
     }
 }

@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.stream.Collectors;
 
 @Service
 public class FightService {
@@ -25,11 +24,8 @@ public class FightService {
 
     public Fight getFight() throws IOException {
         final JsonNode jsonNode = jsonFileService.getContent(databasePath.concat(playersFilename));
-        final Fight fight = new Fight();
-        fight.setTotal(jsonNode.size());
-        fight.setPlaying(getPlayingQuantity(jsonNode));
 
-        return fight;
+        return new Fight(jsonNode.size(), getPlayingQuantity(jsonNode));
     }
 
     private Integer getPlayingQuantity(JsonNode jsonNode) {

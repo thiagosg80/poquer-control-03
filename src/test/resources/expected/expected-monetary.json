@@ -1,0 +1,25 @@
+{
+  "total": 135.0,
+  "awards": [
+    {
+      "position": 1,
+      "quantity": 81.0,
+      "percent": 60.0
+    },
+    {
+      "position": 2,
+      "quantity": 27.0,
+      "percent": 20.0
+    },
+    {
+      "position": 3,
+      "quantity": 20.25,
+      "percent": 15.0
+    },
+    {
+      "position": 4,
+      "quantity": 6.75,
+      "percent": 5.0
+    }
+  ]
+}
