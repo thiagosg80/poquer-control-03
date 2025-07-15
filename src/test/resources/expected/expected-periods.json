@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "isFinish": false,
+    "duration": {
+      "seconds": 16,
+      "minutes": 3
+    },
+    "bet": {
+      "smallBlind": 0.25,
+      "bigBlind": 0.5,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 2,
+    "isFinish": false,
+    "duration": {
+      "seconds": 15,
+      "minutes": 3
+    },
+    "bet": {
+      "smallBlind": 0.5,
+      "bigBlind": 1.0,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 3,
+    "isFinish": false,
+    "duration": {
+      "seconds": 7,
+      "minutes": 2
+    },
+    "bet": {
+      "smallBlind": 1.0,
+      "bigBlind": 2.0,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 4,
+    "isFinish": false,
+    "duration": {
+      "seconds": 0,
+      "minutes": 2
+    },
+    "bet": {
+      "smallBlind": 2.0,
+      "bigBlind": 4.0,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 5,
+    "isFinish": false,
+    "duration": {
+      "seconds": 1,
+      "minutes": 4
+    },
+    "bet": {
+      "smallBlind": 4.0,
+      "bigBlind": 8.0,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 6,
+    "isFinish": false,
+    "duration": {
+      "seconds": 0,
+      "minutes": 3
+    },
+    "bet": {
+      "smallBlind": 5.0,
+      "bigBlind": 10.0,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 7,
+    "isFinish": false,
+    "duration": {
+      "seconds": 23,
+      "minutes": 1
+    },
+    "bet": {
+      "smallBlind": 10.0,
+      "bigBlind": 20.0,
+      "ante": 0.0
+    }
+  },
+  {
+    "id": 8,
+    "isFinish": false,
+    "duration": {
+      "seconds": 50,
+      "minutes": 1
+    },
+    "bet": {
+      "smallBlind": 20.0,
+      "bigBlind": 40.0,
+      "ante": 0.0
+    }
+  }
+]

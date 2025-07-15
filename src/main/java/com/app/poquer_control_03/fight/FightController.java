@@ -16,7 +16,7 @@ public class FightController {
         this.service = service;
     }
 
-    @GetMapping("")
+    @GetMapping
     Fight getFight() throws IOException {
         return service.getFight();
     }

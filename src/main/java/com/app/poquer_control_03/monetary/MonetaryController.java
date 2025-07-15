@@ -16,7 +16,7 @@ public class MonetaryController {
         this.service = service;
     }
 
-    @GetMapping("")
+    @GetMapping
     Monetary getMonetary() throws IOException {
         return service.getMonetary();
     }
