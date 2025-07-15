@@ -1,23 +1,29 @@
 package com.app.poquer_control_03.sound;
 
+import com.app.poquer_control_03.FullPathService;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 
 import static javax.sound.sampled.AudioFormat.Encoding.PCM_SIGNED;
 
 @Service
 public class SoundService {
 
+    @Value("${basedados-path}")
+    String databasePath;
+
     @Value("${sound-filename}")
     String soundFilename;
 
     public void play() throws IOException, UnsupportedAudioFileException, LineUnavailableException {
-        final File file = new ClassPathResource(soundFilename).getFile();
+        final Path path = FullPathService.get(databasePath.concat(soundFilename));
+        final String pathname = path.toString();
+        final File file = new File(pathname);
         final AudioInputStream input = AudioSystem.getAudioInputStream(file);
         final AudioFormat baseFormat = input.getFormat();
         final int channels = baseFormat.getChannels();
