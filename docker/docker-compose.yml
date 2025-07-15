@@ -1,0 +1,9 @@
+services:
+  web:
+    working_dir: $DIR
+    build: .
+    volumes:
+      - ../:$DIR
+    ports:
+      - "5661:5661"
+    command: "java -jar ${JAR_FILE} --spring.profiles.active=prod"

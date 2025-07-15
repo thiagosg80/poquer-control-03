@@ -30,7 +30,7 @@ public class FightService {
 
     private Integer getPlayingQuantity(JsonNode jsonNode) {
         return jsonNode.valueStream()
-                .filter(i -> i.get("isEliminado").asBoolean())
+                .filter(i -> !i.get("isEliminado").asBoolean())
                 .toList()
                 .size();
     }

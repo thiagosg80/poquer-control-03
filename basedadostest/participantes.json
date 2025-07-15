@@ -3,7 +3,7 @@
     "nome": "seya",
     "compra": 15,
     "recompra": 0,
-    "isEliminado": false
+    "isEliminado": true
   },
   {
     "nome": "shiriu",

@@ -9,5 +9,4 @@ public class PoquerControl03Application {
 	public static void main(String[] args) {
 		SpringApplication.run(PoquerControl03Application.class, args);
 	}
-
 }
