@@ -1,7 +1,7 @@
 services:
   web:
     working_dir: $DIR
-    build: .
+    image: openjdk:24-ea-jdk
     volumes:
       - ../:$DIR
     ports:
