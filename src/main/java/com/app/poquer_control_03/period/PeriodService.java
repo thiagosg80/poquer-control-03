@@ -1,9 +1,9 @@
 package com.app.poquer_control_03.period;
 
 import com.app.poquer_control_03.JSONFileService;
-import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import tools.jackson.databind.JsonNode;
 
 import java.io.IOException;
 import java.util.List;
