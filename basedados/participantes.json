@@ -1,68 +1,68 @@
 [
   {
-    "nome": "batista",
-    "compra": 20,
-    "recompra": 20,
+    "nome": "aparicio",
+    "compra": 100,
+    "recompra": 0,
     "isEliminado": false
   },
   {
-    "nome": "claus",
-    "compra": 20,
-    "recompra": 20,
-    "isEliminado": false
-  },
-  {
-    "nome": "flavio",
-    "compra": 20,
-    "recompra": 20,
-    "isEliminado": false
-  },
-  {
-    "nome": "fly",
-    "compra": 20,
-    "recompra": 20,
+    "nome": "eduardo db",
+    "compra": 100,
+    "recompra": 100,
     "isEliminado": true
   },
   {
-    "nome": "gilson",
-    "compra": 20,
-    "recompra": 20,
-    "isEliminado": false
+    "nome": "claus",
+    "compra": 100,
+    "recompra": 100,
+    "isEliminado": true
   },
   {
-    "nome": "mario",
-    "compra": 20,
-    "recompra": 20,
-    "isEliminado": false
-  },
-  {
-    "nome": "rafael",
-    "compra": 20,
-    "recompra": 20,
+    "nome": "charles",
+    "compra": 100,
+    "recompra": 0,
     "isEliminado": true
   },
   {
     "nome": "thiago",
-    "compra": 20,
-    "recompra": 20,
-    "isEliminado": false
-  },
-  {
-    "nome": "vagner",
-    "compra": 20,
-    "recompra": 20,
+    "compra": 100,
+    "recompra": 0,
     "isEliminado": true
   },
   {
-    "nome": "vinicius",
-    "compra": 20,
-    "recompra": 20,
+    "nome": "fly",
+    "compra": 100,
+    "recompra": 0,
     "isEliminado": false
   },
   {
-    "nome": "ze",
-    "compra": 20,
-    "recompra": 20,
-    "isEliminado": false
+    "nome": "lucas",
+    "compra": 100,
+    "recompra": 100,
+    "isEliminado": true
+  },
+  {
+    "nome": "mario",
+    "compra": 100,
+    "recompra": 100,
+    "isEliminado": true
+  },
+  {
+    "nome": "flavio",
+    "compra": 100,
+    "recompra": 100,
+    "isEliminado": true
+  },
+  {
+    "nome": "alexandre",
+    "compra": 100,
+    "recompra": 100,
+    "isEliminado": true
+  },
+  {
+    "nome": "vini",
+    "compra": 100,
+    "recompra": 0,
+    "isEliminado": true
   }
 ]

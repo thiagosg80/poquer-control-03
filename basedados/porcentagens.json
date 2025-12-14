@@ -1,7 +1,7 @@
 [
   {
     "position": 1,
-    "percentage" : 60
+    "percentage" : 55
   },
   {
     "position": 2,
@@ -10,5 +10,9 @@
   {
     "position": 3,
     "percentage" : 15
+  },
+  {
+    "position": 4,
+    "percentage" : 5
   }
 ]
